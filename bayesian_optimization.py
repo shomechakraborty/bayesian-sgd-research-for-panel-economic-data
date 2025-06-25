@@ -196,7 +196,6 @@ def optimize_neural_network_hyperparameters(neural_network, feed_data_reference,
                         plt.legend()
                         plt.show()
                 optimal_hyperparameter_values[hyperparameter] = training_data_points[-1][0]
-                ))
                 success = True
             except Exception:
                 continue
